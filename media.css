@@ -1,0 +1,101 @@
+@media screen and (max-width:640px){
+    .container{
+        background-color: #7030CC;
+    }
+    nav .icon{
+        display: block;
+        font-size: 40px;
+        margin-top: 15px;
+        margin-left: 200px;
+    }
+    nav .menus, button{
+        display: none;
+    }
+    .container .text{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+
+    }
+    .container .text img{
+        width: 350px;
+    }
+    .container .text .left-text{
+        margin-right: 120px;
+        margin-bottom: 30px;
+    }
+    .container .text h2{
+        font-size: 30px;
+    }
+    .container .text p{
+        font-size: 10px;
+    }
+    /* Hero-section */
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-section .right-section{
+        margin-left: 90px;
+        width: 300px;
+    }
+    .hero-section .left-section img{
+        width: 350px;
+    }
+    /* Card-section */
+    .wrapper{
+        margin-left: 100px;
+        width: 350px;
+    }
+    .wrapper .cards{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .wrapper .cards .card{
+        margin-bottom: 20px;
+        width: 220px;
+    }
+}
+@media screen and (min-width:641px) and (max-width:768px){
+    .container{
+        width: 140vh;
+    }
+    nav .icon{
+        display: none;
+    }
+    .container .text .left-text{
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+    .container .text h2{
+        font-size: 25px;
+    }
+    .container .text p{
+        font-size: 14px;
+    }
+    .container .text img{
+        width: 350px;
+    }
+    /* Hero-section */
+    .hero-section .left-section img{
+        width: 250px;
+    }
+    /* Card-section */
+    .wrapper{
+        margin-left: 90px;
+    }
+    .wrapper .heading{
+        font-size: 20px;
+        margin-left: 70px;
+    }
+    .wrapper .cards{
+      display: flex;
+      flex-direction: column;
+    }
+    .wrapper .cards .card{
+        width: 350px;
+        margin-bottom: 20px;
+        margin-left: 140px;
+    }
+}

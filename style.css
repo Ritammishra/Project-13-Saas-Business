@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+.container{
+    background-color: #7030CC;
+    color: #fff;
+    font-family: 'Poppins';
+    border-radius: 12px 12px 0px 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav .logo img{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 90px;
+}
+.menus ul {
+    display: flex;
+    list-style-type: none;
+    width: 450px;
+    justify-content: space-between;
+}
+.menus ul li:hover::after{
+    content: "";
+    background-color: #fff;
+    width: 30px;
+    height: 2px;
+    display: block;    
+}
+nav .btn button{
+    width: 90px;
+    height: 35px;
+    background-color: #1BBCEF;
+    border: none;
+    margin-top: 15px;
+    margin-right: 15px;
+    color: #fff;
+}
+nav .btn button:hover{
+    background-color: #fff;
+    color: #000;
+}
+nav .icon{
+    display: none;
+}
+.container .text{
+    display: flex;
+    justify-content: space-between;
+}
+.container .text .left-text{
+    margin-left: 80px;
+    margin-top: 60px;
+}
+.container .text h2{
+    font-size: 45px;
+}
+.container .text p{
+    font-size: 14px;
+}
+.container .text img{
+    width: 600px;
+}
+
+/* Hero-section */
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    font-family: 'Poppins';
+}
+.hero-section .left-section img{
+    width: 450px;
+    margin-left: 60px;
+}
+.hero-section .right-section{
+    margin-right: 60px;
+}
+.hero-section .right-section span p{
+    font-size: 12px;
+    margin-left: 35px;
+}
+
+.hero-section .right-section span img{
+    width: 20px;
+    margin-right: 16px;
+}
+
+/* Card-section */
+.wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Poppins';
+}
+.wrapper .heading{
+    font-size: 25px;
+}
+.wrapper .cards{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.cards .card{
+    margin-right: 60px;
+    box-shadow: 8px 5px 5px #00000079;
+    border-radius: 12px;
+}
+.cards .card img{
+    width: 80px;
+}
+.cards .card p{
+    font-size: 12px;
+}
+.cards .card .text{
+    background-color: #6429B7;
+    border-radius: 12px;
+    color: #fff;
+    padding: 1px 12px;
+}
+.cards .card div{
+    padding: 0px 12px;
+}
+.cards .card:hover{
+    transform: scale(1.2);
+}
