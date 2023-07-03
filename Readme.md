@@ -8,7 +8,7 @@
 ![image](./Thumbnails/Thumbnail-1.png)
 ![image](./Thumbnails/Thumbnail-2.png)
 ![image](./Thumbnails/Thumbnail-3.png)
-
+[Live Preview](https://project-13-saas-business.netlify.app/)
 <hr>
 
 ## Features
